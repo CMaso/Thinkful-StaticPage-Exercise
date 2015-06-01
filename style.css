@@ -1,0 +1,73 @@
+html { 
+  background: url(img/thinkfulStaticBG.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-top: 5px solid #d46a6a;
+}
+
+body {
+	font-family: "Open Sans", Tahoma, "times new roman", sans-serif;
+	text-shadow: 2px 2px 3px #000;
+}
+
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+  color:#801515;
+}
+
+.masthead {
+  padding: 1em 0;
+  text-align: center;
+  font-size:1.6em;
+}
+
+.masthead h1 {
+	display:inline;
+}
+
+.masthead h1 img {
+
+	margin:0 5px 0 0
+}
+
+.masthead-heading {
+  margin-bottom: 0.1em;
+}
+
+.masthead-intro {
+  margin-top: -0.2em;
+  font-weight: bold;
+}
+
+.info h1 {
+  text-align: center;
+}
+
+.info-container {
+  text-align:center;
+}
+
+.info {
+  border-radius: 10px;
+  vertical-align:top;
+  display:inline-block;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing:border-box;
+  color:#d46a6a;
+  background: rgba(85, 0, 0, 0.6);/*this is a handy way to make background transparent w/o affecting text color*/
+  /*only downside is it won't work in IE8*/
+}
+
+footer {
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background: rgba(85, 0, 0, 0.6);
+	color:#d46a6a;
+}
